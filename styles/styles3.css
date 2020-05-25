@@ -1,0 +1,64 @@
+body {
+    background-color: blueviolet;
+    font-family: 'Shrikhand', cursive;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: left;
+}
+
+#imagen-titulo {
+    width: 90%;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+#logotype {
+    position: absolute;
+    width: 200px;
+    margin-top: -600px;
+    margin-left: 1170px;
+}
+
+a {
+    width: 25%;
+    color: rgb(6, 12, 12);
+    background-color: rgb(249, 60, 220);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 2px solid;
+}
+
+.navbar {
+    position: absolute;
+    display: inline;
+}
+
+nav {
+    margin-top: -515px;
+    margin-left: 55px;
+}
+
+.information {
+    text-align: left;
+    margin: auto;
+    width: 80%;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.table-match {
+    position: relative;
+    border-collapse: collapse;
+    border-spacing: 1;
+    color: #000000;
+    border: solid rgb(7, 7, 7) 1px;
+    width: 600px;
+    background-color: rgb(249, 89, 190);
+}

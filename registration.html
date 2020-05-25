@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&family=Luckiest+Guy&family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles2.css">
+    <title>REGISTRATION</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo-central">Northside Youth Soccer League</h1>
+        <img src="images/imagen1.jpg" id="imagen-titulo" alt="imagen de fondo chicos">
+        <img src="images/nysl_logo.png" id="logotype" alt="logo team">
+    </header>
+    <nav class="navbar">
+        <a href="home.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="rules.html">RULES</a>
+        <a href="info.html">GAME INFO</a>
+        <a href="registration.html">REGISTRATION</a>
+    </nav>
+    <div class="information">
+        <h2 class="titulo-central">Registration Form</h2>
+        <form action="show_data.html" target="self">
+            <label> Player’s First Name: <input type="text" name="Player_First_Name"></label> <label> Last Name: <input type="text" name="Last_Name"> </label> <br> <br>
+            <label>Street Address: <input type="text" name="Street_Address"></label> <br> <br>
+            <label>City: <input type="text" name="City"></label> <label>Zip Code: <input type="text" name="Zip"></label> <br> <br>
+            <label>Birth Date (mm/dd/yyyy): <input type="text" name="Birth_Date"></label><br> <br>
+
+            <span>Gender:</span>
+            <label>
+            <input type="radio" name="Gender" value="female" checked> female
+          </label>
+            <label>
+            <input type="radio" name="Gender" value="male"> male</label><br> <br>
+
+            <label>GRADE:
+              <input type="radio" name="GRADE" value="Pre-Schoo" checked > Pre-Schoo</label>
+            <label> <input type="radio" name="GRADE" value="1s">1s</label>
+            <label> <input type="radio" name="GRADE" value="2nd" > 2nd</label>
+            <label> <input type="radio" name="GRADE" value="3rd "> 3rd</label>
+            <label> <input type="radio" name="GRADE" value="4th" > 4th</label>
+            <label> <input type="radio" name="GRADE" value="5th "> 5th</label><br><br>
+            <label> Parent/Guardian: <input type="text" name="guardian"></label> <label>Contact Email: <input type="text" name="contact"></label>
+            <h3>
+                Which elementary schools do you live near?
+            </h3>
+
+            <label for="first-closest">First Closest School:</label>
+
+            <select id="first-closest" name="first-closest">
+            <option disabled selected>Choose one</option>
+         <option label="AJ Katzenmaier">AJ Katzenmaier</option>
+         <option label="Greenbay">Greenbay</option>
+         <option label="Howard A Yeager">Howard A Yeager</option>
+         <option label="Marjorie P Hart">Marjorie P Hart</option>
+         <option label="North Elementary">North Elementary</option>
+         <option label="South Elementary">South Elementary</option>
+  
+  
+         </select><label for="second-closest"> Second Closest School:</label>
+
+            <select id="second-closest" name="second_closest"> 
+            <option disabled selected>Choose one</option>
+         <option label="AJ Katzenmaier">AJ Katzenmaier</option>
+         <option label="Greenbay">Greenbay</option>
+         <option label="Howard A Yeager">Howard A Yeager</option>
+         <option label="Marjorie P Hart">Marjorie P Hart</option>
+         <option label="North Elementary">North Elementary</option>
+         <option label="South Elementary">South Elementary</option>
+  
+  
+         </select>
+            <h3>What position(s) do you normally play? (check all that apply)</h3>
+            <label> <input type="checkbox" name="position" value="Forward" checked>Forward</label>
+            <label> <input type="checkbox" name="position" value="Defense" > Defense</label> <br>
+            <label> <input type="checkbox" name="position" value="Midfield "> Midfield</label>
+            <label> <input type="checkbox" name="position" value="Goalkeeper" > Goalkeeper</label><br><br>
+            <label> <input type="checkbox"> Already Have a Uniform Jersey Size:</label><br><br>
+            <label for="Jersey-Size:">Jersey Size:</label>
+            <select id="Jersey-Size:" name="jersey_size">
+            <option disabled selected>Choose one</option>
+             <option label="Youth Small">Youth Small</option>
+             <option label="Youth Medium">Youth Medium</option>
+             <option label="Youth Large">Youth Large</option>
+             <option label="Small">Small</option>
+             <option label="Medium">Medium</option>
+             <option label="Large">Large</option>
+             <option label="Extra-Large">Extra-Large</option>
+            </select><label for="Shorts-Size:"> Shorts Size:</label>
+            <select id="Shorts-Size:" name="shorts_size">
+            <option disabled selected>Choose one</option>
+            <option label="Youth Small">Youth Small</option>
+            <option label="Youth Medium">Youth Medium</option>
+            <option label="Youth Large">Youth Large</option>
+            <option label="Small">Small</option>
+            <option label="Medium">Medium</option>
+            <option label="Large">Large</option>
+            <option label="Extra-Large">Extra-Large</option>
+            </select>
+            <H3>Permission to Play</H3>
+            <P>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration
+                for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for
+                practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation. <br> <br> By signing
+                below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms. </P>
+            <label>Parent/Guardian Signature:</label><input type="text" name="sign">
+            <label>Date: <input type="text" name="date"></label>
+            <input class="btn btn-default" type="submit" name="submit" value="enviar">
+        </form>
+    </div>
+</body>
+
+</html>
